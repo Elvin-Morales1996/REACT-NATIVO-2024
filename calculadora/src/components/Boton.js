@@ -11,7 +11,7 @@ function Boton(props){
     }
     return(
         <div
-        //hacer un if para que las operaciones arimetica den una clase operador
+        //hacer un if para que las operaciones arimetica den una clase operador modificado
         className={`bton-contenedor ${esoperador(props.children) ? 'operador': null}`.trimEnd()}>
             
             {props.children}
