@@ -5,22 +5,44 @@
   background-color: #1b1b32;
   font-family: Lato, sans-serif;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .freecodecamp-logo-contenedor{
-  width: 100%;
+ width: 100%;
   height: 50px;
-  margin: 500px;
+  margin: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .freeacodecamp-logo{
-  height: 200px;
+  height: 100px;
 }
 
+/*estilo al contenido de la calculadora*/
+.contenido-calculadora{
+  width: 400px;
+  height: 600px;
+  padding: 14px;
+  background-color: #99c9ff;
+  border-radius: 20px;
+  border: 5px solid white;
+
+}
+
+/*estilo al contenido de las filas */
+.fila{
+  margin: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
 
+
+}
 
 
